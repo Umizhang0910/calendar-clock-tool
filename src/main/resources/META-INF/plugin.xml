@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.umizhang.calendarclock</id>
+    <id>com.umzhang.calendarclock</id>
     <name>CalendarClock</name>
     <version>1.0.1</version>
     <vendor email="umizhang0910@126.com" url="https://umizhang0910.com">Umizhang</vendor>
