@@ -1,4 +1,4 @@
-package com.umzhang.ui;
+package com.umizhang.ui;
 
 import javax.swing.*;
 import java.awt.*;
