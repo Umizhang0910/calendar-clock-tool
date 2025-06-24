@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.umzhang.calendarclock</id>
+    <id>com.umizhang.calendarclock</id>
     <name>CalendarClock</name>
     <version>1.0-SNAPSHOT</version>
     <vendor email="umizhang0910@126.com" url="https://umizhang0910.com">Umizhang</vendor>
@@ -9,15 +9,11 @@
         - Convert timestamps to human-readable date-time formats.
         - Convert date-time formats back to timestamps.
         - A real-time visual clock for enhanced time tracking.
+        - Visualized date and time widgets
     ]]></description>
 
     <change-notes><![CDATA[
-        <p>Initial release with the following features:</p>
-        <ul>
-            <li>Timestamp to date-time conversion.</li>
-            <li>Date-time to timestamp conversion.</li>
-            <li>Real-time visual clock display.</li>
-        </ul>
+        <p>Add Visualized date and time widgets:</p>
     ]]></change-notes>
 
     <idea-version since-build="233.0" until-build="241.*"/>
@@ -27,6 +23,9 @@
     <depends>com.intellij.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="Ts Convert &amp; Clock" factoryClass="com.umzhang.CalendarClockToolWindowFactory" anchor="right" icon="/icons/switch.svg"/>
+        <toolWindow id="Ts Convert &amp; Clock" factoryClass="com.umizhang.CalendarClockToolWindowFactory"
+                    anchor="right" icon="/icons/switch.svg"/>
+        <statusBarWidgetFactory id="RealTimeClockWidget" implementation="com.umizhang.widget.TimeWidgetFactory"
+                                order="after position"/>
     </extensions>
 </idea-plugin>
