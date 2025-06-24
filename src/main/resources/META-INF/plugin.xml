@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.umizhang.calendarclock</id>
     <name>CalendarClock</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
     <vendor email="umizhang0910@126.com" url="https://umizhang0910.com">Umizhang</vendor>
 
     <description><![CDATA[
